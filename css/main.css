@@ -73,9 +73,7 @@ FOOTER
 **********************/
 footer {
     max-width:950px;
-}
-
-.footer {
+    background-color:orange;
   font-size:0.75em;
   text-align:center;
   clear:both; /* The clear property allows the footer to be clear of any floated elements */
