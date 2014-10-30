@@ -63,7 +63,7 @@ nav a{
 /**********************
 Footer
 **********************/
-#footer{
+.footer {
     font-size:.75em;
 	max-width:960px;
 	background:yellow;
