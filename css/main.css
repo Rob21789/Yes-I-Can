@@ -1,33 +1,35 @@
 /***********************
-MAIN
+GENERAL
 ***********************/
 a{
     text-decoration:none;
 }
 
-li{
-    display:inline-block;
-    vertical-align:middle;
+img {
+
+    max-width: 100%;
 }
 
-#wrapper{
-    max-width:940px;
-    margin: 0 auto;
-    padding: 0 5%;
-}
-#logo{
-    text-align:center;/*Can be modified later on to determine where to logo should be*/
-    margin: 0;
-}
-body{
+body {
     font-family: Sans-serif; /*To be determined*/
 }
 
-div #banner {
+#wrapper{
+    max-width:960px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+#siteid {
+    text-align: left;
+    width:960px;
+}
+
+div #banner { /*This is simply to test the size of the banner on the page*/
     display:block;
     background-color:red;
     width:960px;
-    height:100px;
+    height:300px;
+    clear:both; 
 }
  
 /***********************
@@ -41,15 +43,12 @@ header{
     /*height: To be determine*/
     background:; /*To be determined*/
 }
-/*To be determine later on.*/
-h1{
- 
-}
+
 /***********************
 NAVIGATION
 ***********************/
 nav{
-    background:blue /*Temporary color for the background for the nav bar*/
+    background:blue; /*Temporary color for the background for the nav bar*/
     text-align:center;
     margin: 20px 0 0;
     color:blue;
@@ -77,18 +76,18 @@ footer {
 }
 
 .footer {
-    font-size:.75em;
-    width:100%;
-    height:30px;
-    clear:both;
-	position: absolute;
-    padding-top:50px;
-	bottom:0;
-	width:100%;
-	height: 60%; /*Height of the footer*/
+  font-size:0.75em;
+  text-align:center;
+  clear:both; /* The clear property allows the footer to be clear of any floated elements */
+  padding-top: 50px;
     }
 
 
 .copyright {
      display: block;
     }   
+
+.social-icon {
+    float:right;
+    margin: 0px 15px 15px 0px;
+}
