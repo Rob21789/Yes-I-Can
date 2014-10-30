@@ -1,0 +1,121 @@
+a{
+    text-decoration:none;
+}
+li{
+    display:inline-block;
+    vertical-align:middle;
+}
+#wrapper{
+    max-width:940px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+#logo{
+    text-align:center;/*Can be modified later on to determine where to logo should be*/
+    margin: 0;
+}
+body{
+    font-family:; /*To be determined*/
+	padding-bottom:60px; /*Height of the footer*/
+}
+ 
+/******************
+Header
+*******************/
+header{
+    float:left;
+    margin:0 0 30px 0;
+    padding: 5px 0 0 0; /*Starts @ the top then go clockwise. Top, right, bottom, left*/
+    /*width: To be determine*/
+    /*height: To be determine*/
+    background:; /*To be determined*/
+}
+/*To be determine later on.*/
+h1{
+ 
+}
+/*******************/
+ 
+/**********
+Navigation
+************/
+nav{
+    background:blue /*Temporary color for the background for the nav bar*/
+    text-align:center;
+    margin: 20px 0 0;
+    color:blue;
+}
+nav ul{
+    list-style:none;
+    margin:0 10px; /*Can be change later on in the design if it doesn't work*/
+}
+nav li{
+    /*Inline, mostly text. Appears in the same line, inline as the rest of the text. Block 
+      pushes other items out of the page. Inline block maintains width and 
+      height but is in line with other images*/
+    display:inline-block;
+    list-style:none;
+}
+nav a{
+    font-weight: 800;
+    padding: 15px 10px;
+}
+/**********************
+Footer
+**********************/
+#footer{
+    font-size:.75em;
+	max-width:960px;
+	background:yellow;
+    width:100%;
+    height:30px;
+    clear:both;
+	position: absolute;
+    padding-top:50px;
+	bottom:0;
+	width:100%;
+	height: 60%; /*Height of the footer*/
+}
+  	.copyright {
+     display: block;
+    }   
+    a {
+        text-decoration: none;
+        color: #c23b3b
+    }
+    a:hover {
+        color: darkred;
+    }       
+/********************************/
+ 
+/************************
+PAGE: Get Help
+************************/
+ 
+/**********************
+PAGE: Community
+**********************/
+ 
+/**********************
+PAGE: Resources
+**********************/
+ 
+/**********************
+PAGE: About Us
+**********************/
+ 
+/**********************
+PAGE: Get Involved
+**********************/
+ 
+/************************
+Colors
+************************/
+/*Navigation link custumization. Colors
+are Temporary*/
+nav a, nav a:visited{
+    color:#FFF;
+}
+nav a.selected, nav a:hoover{
+    color: gray;
+}
