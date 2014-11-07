@@ -1,7 +1,7 @@
 /***********************
 GENERAL
 ***********************/
-a{
+a {
     text-decoration:none;
 }
 
@@ -11,47 +11,48 @@ img {
 }
 
 body {
-    font-family: Sans-serif; /*To be determined*/
+    font-family: Calibri, Sans-serif;
+    background-color:#e6e9ed;
+    color: #434a54;
 }
 
 #wrapper{
     max-width:960px;
     margin: 0 auto;
-    padding: 0 5%;
-}
-#siteid {
-    text-align: left;
-    width:960px;
+    padding: 0;
+    background-color:#f5f7fa;
 }
 
-div #banner { /*This is simply to test the size of the banner on the page*/
+#banner {
+    margin-left: auto;
+    margin-right:auto;
+    padding: 0;
     display:block;
-    background-color:red;
-    width:960px;
-    height:300px;
-    clear:both; 
+    clear:both;
 }
  
 /***********************
 HEADER
 ***********************/
-header{
-    float:left;
-    margin:0 0 30px 0;
-    padding: 5px 0 0 0; /*Starts @ the top then go clockwise. Top, right, bottom, left*/
-    /*width: To be determine*/
-    /*height: To be determine*/
-    background:; /*To be determined*/
+#header {
+margin-left: auto;
+margin-right: auto;
+padding: 0;
+display: block;
+clear: both;
 }
 
 /***********************
 NAVIGATION
 ***********************/
 nav{
-    background:blue; /*Temporary color for the background for the nav bar*/
+    background:#4a89dc;
     text-align:center;
-    margin: 20px 0 0;
     color:blue;
+    max-width:960px;
+    margin: 0 auto;
+    padding: 10px 0;
+    text-align:center;
 }
 nav ul{
     list-style:none;
@@ -68,16 +69,32 @@ nav a{
     font-weight: 800;
     padding: 15px 10px;
 }
+
+nav a:visited {
+    color:#f5f7fa;
+}
+
+nav a:link {
+    color:#f5f7fa;
+}
+
+nav a:hover {
+    color:#caccd0;
+}
 /**********************
 FOOTER
 **********************/
 footer {
     max-width:950px;
-    background-color:orange;
-  font-size:0.75em;
-  text-align:center;
-  clear:both; /* The clear property allows the footer to be clear of any floated elements */
-  padding-top: 50px;
+    background-color:#434a54;
+    font-size:0.75em;
+    text-align:center;
+    clear:both; /* The clear property allows the footer to be clear of any floated elements */
+    color:#e6e9ed;
+    margin: 0 auto;
+    padding: 0;
+
+
     }
 
 
