@@ -87,22 +87,28 @@ FOOTER
 footer {
     max-width:950px;
     background-color:#434a54;
-    font-size:0.75em;
-    text-align:center;
-    clear:both; /* The clear property allows the footer to be clear of any floated elements */
-    color:#e6e9ed;
+    font-size: 0.75em;
+    clear: both; /* The clear property allows the footer to be clear of any floated elements */
+    color: #e6e9ed;
     margin: 0 auto;
     padding: 0;
-
-
     }
+
+footer ul {
+    display:inline-block;
+    list-style-type: none;
+    text-align:left;
+}
 
 
 .copyright {
      display: block;
     }   
 
-.social-icon {
-    float:right;
-    margin: 0px 15px 15px 0px;
+.social-icon {;
+/*Everything here is a placeholder for the images*/
+    display:inline-block;
+    background-color:red;
+    width:30px;
+    height:30px;
 }
