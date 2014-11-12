@@ -93,16 +93,41 @@ footer {
     color:#e6e9ed;
     margin: 0 auto;
     padding: 0;
-
-
-    }
-
-
-.copyright {
-     display: block;
-    }   
-
-.social-icon {
-    float:right;
-    margin: 0px 15px 15px 0px;
 }
+footer h3{
+    padding-left: 2em;
+}
+footer ul {
+    display:inline-block;
+    list-style-type: none;
+    text-align:left;
+}
+footer ul li{
+    list-style:none;
+    text-decoration:none;
+    padding-left: 2.3em;
+}
+#footerus{
+    clear:left;
+}
+#footertext{
+    font-family: ;
+    padding-top: .6em;
+    float:left;     
+    padding-left: 2em;
+    font-size: 1.35em;
+}
+#copyright{
+    font-size: 1.05em;
+    text-align: left;
+    margin-top: 5px; 
+ }   
+.social-icon {
+/*Everything here is a placeholder for the images*/
+    display:inline-block;
+    width:30px;
+    height:30px;
+}
+img.social-icon {
+border-square: 85%;
+margin-bottom: .8em;
