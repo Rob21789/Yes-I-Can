@@ -95,7 +95,7 @@ footer {
     padding: 4px;
 }
 footer h3{
-    padding-left: 2em;
+    padding-left: .9em;
 }
 footer ul {
     display:inline-block;
@@ -105,9 +105,11 @@ footer ul {
 footer ul li{
     list-style:none;
     text-decoration:none;
-    padding-left: 2.3em;
+    padding-left: 1em;
 }
-
+footer ul li a{
+    color:#FFFFFF;
+}
 #footerslogan{
     font-family: ;
     padding-top: .6em;
@@ -116,14 +118,13 @@ footer ul li{
     font-size: 1.35em;
 }
 #copyright{
-    background-color:red;
     font-size: 1.05em;
     text-align:left;
     margin-top: 5px; 
     float:left;
     clear:both;
     display:inline-block;
- }   
+}   
 .social-icon {
 /*Everything here is a placeholder for the images*/
     display:inline-block;
@@ -131,5 +132,7 @@ footer ul li{
     height:30px;
 }
 img.social-icon {
-border-square: 85%;
-margin-bottom: .8em;
+    border-square: 85%;
+    margin-bottom: .8em;
+    margin-right: .9em;
+}
