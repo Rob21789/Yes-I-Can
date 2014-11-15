@@ -19,8 +19,8 @@ body {
 #wrapper{
     max-width:960px;
     margin: 0 auto;
-    padding: 0;
     background-color:#f5f7fa;
+    overflow: auto; /*This fixed the wrapper background color problem that happened bc floating content*/
 }
 
 #banner {
@@ -53,6 +53,7 @@ nav{
     margin: 0 auto;
     padding: 10px 0;
     text-align:center;
+    font-size:1.2em;
 }
 nav ul{
     list-style:none;
@@ -70,7 +71,7 @@ nav a{
     padding: 15px 10px;
 }
 
-nav a:visited {
+nav a:visited, a:link {
     color:#f5f7fa;
 }
 
@@ -79,7 +80,7 @@ nav a:link {
 }
 
 nav a:hover {
-    color:#caccd0;
+    color:#0B108C;
 }
 /**********************
 FOOTER
@@ -108,8 +109,13 @@ footer ul li{
     padding-left: 1em;
 }
 footer ul li a{
-    color:#FFFFFF;
+    color:#e6e9ed;
 }
+
+footer a:hover {
+    color:#FFFFFF; /*Change hover color to make it more prominent*/
+}
+
 #footerslogan{
     font-family: ;
     padding-top: .6em;

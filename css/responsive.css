@@ -12,6 +12,7 @@ This is helpful for normal sized tablets, very large smartphones, and very small
   #primary {
     width: 50%;
     float: left;
+    padding-left:1em;
   }
   
   #secondary {
