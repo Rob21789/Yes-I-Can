@@ -22,6 +22,29 @@ body {
     background-color:#f5f7fa;
     overflow: auto; /*This fixed the wrapper background color problem that happened bc floating content*/
 }
+ 
+/***********************
+HEADER - Top image strip above banner
+***********************/
+#header {
+    background-image: url(../img/header.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height:100px;
+}
+
+
+
+
+/*
+Commented out 11/15 for testing background CSS
+#header {
+margin-left: auto;
+margin-right: auto;
+padding: 0;
+display: block;
+clear: both;
+}*/
 
 #banner {
     margin-left: auto;
@@ -30,20 +53,8 @@ body {
     display:block;
     clear:both;
 }
- 
 /***********************
-HEADER
-***********************/
-#header {
-margin-left: auto;
-margin-right: auto;
-padding: 0;
-display: block;
-clear: both;
-}
-
-/***********************
-NAVIGATION
+NAVIGATION - Main site navigation
 ***********************/
 nav{
     background:#4a89dc;
@@ -51,7 +62,6 @@ nav{
     color:blue;
     max-width:960px;
     margin: 0 auto;
-    padding: 10px 0;
     text-align:center;
     font-size:1.2em;
 }
@@ -65,6 +75,7 @@ nav li{
       height but is in line with other images*/
     display:inline-block;
     list-style:none;
+    padding:.5em 1em;
 }
 nav a{
     font-weight: 800;
@@ -89,11 +100,10 @@ footer {
     max-width:950px;
     background-color:#434a54;
     font-size:0.75em;
-    text-align:center;
     clear:both; /* The clear property allows the footer to be clear of any floated elements */
     color:#e6e9ed;
     margin: 0 auto;
-    padding: 4px;
+    overflow:auto;
 }
 footer h3{
     padding-left: .9em;
@@ -102,7 +112,11 @@ footer ul {
     display:inline-block;
     list-style-type: none;
     text-align:left;
+    padding: 0 2.5em;
+    background-color:red;
+    right:100px; /*This line of code is causing the flip around for the "Follow us" section, Not sure how to fix it*/
 }
+
 footer ul li{
     list-style:none;
     text-decoration:none;
@@ -116,29 +130,26 @@ footer a:hover {
     color:#FFFFFF; /*Change hover color to make it more prominent*/
 }
 
-#footerslogan{
-    font-family: ;
+
+#footerSlogan{
     padding-top: .6em;
-    float:left;     
     padding-left: 2em;
+    text-align:left;
     font-size: 1.35em;
+    display:inline-block;
+    background-color: orange;
 }
 #copyright{
     font-size: 1.05em;
     text-align:left;
     margin-top: 5px; 
+    padding-left:2em;
     float:left;
-    clear:both;
     display:inline-block;
+    background-color:red;
 }   
-.social-icon {
-/*Everything here is a placeholder for the images*/
-    display:inline-block;
-    width:30px;
-    height:30px;
-}
+
 img.social-icon {
-    border-square: 85%;
     margin-bottom: .8em;
     margin-right: .9em;
 }
