@@ -30,9 +30,19 @@ body {
     display:block;
     clear:both;
 }
+
 /***********************
-HEADER
+HEADER - Top image strip above banner
 ***********************/
+#header {
+    background-image: url(../img/header.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    margin: 0 auto;
+    max-width:960px;
+}
+
+/*Commented out for testing new header technique
 #header {
 margin-left: auto;
 margin-right: auto;
@@ -42,8 +52,10 @@ clear: both;
 font-family: 'Fabrica', Arial;
 }  
 
+*******/
+
 /***********************
-NAVIGATION
+NAVIGATION - Main site navigation
 ***********************/
 nav{
     background:#4a89dc;
@@ -94,6 +106,7 @@ footer {
     color:#e6e9ed;
     margin: 0 auto;
     padding: 4px;
+    overflow:auto;
     font-family: 'Fabrica', Arial;
 }
 footer h3{
@@ -103,7 +116,7 @@ footer ul {
     display:inline-block;
     list-style-type: none;
     text-align:left;
-}
+    }
 footer ul li{
     list-style:none;
     text-decoration:none;
@@ -117,19 +130,40 @@ footer a:hover {
     color:#FFFFFF; /*Change hover color to make it more prominent*/
 }
 
-#footerslogan{
-    padding-top: .6em;
+#footerLinks {
+    float:right;
+}
+
+#footerSlogan{
+    /*padding-top: .6em;
     float:left;     
     margin-left: 2em;
     font-size: 1.35em;
+    display:inline-block;
+    background-color:orange;*/
+
+    
+    float:left;
+    padding-top: .6em;
+    padding-left: 2em;
+    text-align:left;
+    font-size: 1.35em;
+    display:inline-block;
 }
 #copyright{
-    font-size: .75em;
+   /* font-size: .75em;
     text-align:left;
     margin-top: 13px; 
     margin-left: 9px;
     float:left;
     clear:both;
+    display:inline-block;*/
+
+    font-size: .75em;
+    text-align:left;
+    margin-top: 5px; 
+    padding-left:2em;
+    float:left;
     display:inline-block;
 }   
 .social-icon {
