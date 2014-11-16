@@ -26,5 +26,10 @@ For large tablets and normal sized desktops
 ***************************************/
 
 @media screen and (min-width: 660px) {
-  
+  @font-face {
+    font-family: 'Fabrica';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Fabrica'), local('Fabrica'), url(path/Fabrica.otf) format('otf');
+  }
 }

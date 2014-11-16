@@ -11,7 +11,7 @@ img {
 }
 
 body {
-    font-family: Calibri, Sans-serif;
+    font-family: 'Fabrica', Arial;
     background-color:#e6e9ed;
     color: #434a54;
 }
@@ -30,7 +30,6 @@ body {
     display:block;
     clear:both;
 }
- 
 /***********************
 HEADER
 ***********************/
@@ -40,7 +39,8 @@ margin-right: auto;
 padding: 0;
 display: block;
 clear: both;
-}
+font-family: 'Fabrica', Arial;
+}  
 
 /***********************
 NAVIGATION
@@ -94,6 +94,7 @@ footer {
     color:#e6e9ed;
     margin: 0 auto;
     padding: 4px;
+    font-family: 'Fabrica', Arial;
 }
 footer h3{
     padding-left: .9em;
@@ -106,7 +107,7 @@ footer ul {
 footer ul li{
     list-style:none;
     text-decoration:none;
-    padding-left: 1em;
+    margin-left: 1em;
 }
 footer ul li a{
     color:#e6e9ed;
@@ -117,16 +118,16 @@ footer a:hover {
 }
 
 #footerslogan{
-    font-family: ;
     padding-top: .6em;
     float:left;     
-    padding-left: 2em;
+    margin-left: 2em;
     font-size: 1.35em;
 }
 #copyright{
-    font-size: 1.05em;
+    font-size: .75em;
     text-align:left;
-    margin-top: 5px; 
+    margin-top: 13px; 
+    margin-left: 9px;
     float:left;
     clear:both;
     display:inline-block;
@@ -138,7 +139,6 @@ footer a:hover {
     height:30px;
 }
 img.social-icon {
-    border-square: 85%;
-    margin-bottom: .8em;
+    margin-bottom: 1em;
     margin-right: .9em;
 }
