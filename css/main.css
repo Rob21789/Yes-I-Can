@@ -2,7 +2,11 @@
 GENERAL
 ***********************/
 a {
-    text-decoration:none;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 img {
@@ -23,6 +27,9 @@ body {
     background-color:#f5f7fa;
     overflow: auto; /*This fixed the wrapper background color problem that happened bc floating content*/
         line-height: 1.8em;
+}
+#wrapper img {
+    border-radius:5px 20px 5px;
 }
 
 #wrapper p {
@@ -106,7 +113,7 @@ nav a {
     font-weight: 800;
 }
 
-nav a:visited, a:link {
+nav a:visited, nav a:link {
     color:#f5f7fa;
 }
 
@@ -148,44 +155,13 @@ footer ul li a{
 footer a:hover {
     color:#FFFFFF; /*Change hover color to make it more prominent*/
 }
-
-#footerLinks {
+/**********************
+LEFT SIDE OF FOOTER
+**********************/
+#footer-right {
     float:right;
 }
 
-#footerSlogan{
-    /*padding-top: .6em;
-    float:left;     
-    margin-left: 2em;
-    font-size: 1.35em;
-    display:inline-block;
-    background-color:orange;*/
-    
-    float:left;
-    padding-left: 2em;
-    text-align:left;
-    font-size: 1.35em;
-    display:inline-block;
-    font-family: 'Georgia', serif;
-    line-height: 1.5em;
-}
-
-#copyright{
-   /* font-size: .75em;
-    text-align:left;
-    margin-top: 13px; 
-    margin-left: 9px;
-    float:left;
-    clear:both;
-    display:inline-block;*/
-
-    font-size: 1em;
-    text-align:left;
-    margin-top: 5px; 
-    padding-left:2.5em;
-    float:left;
-    display:inline-block;
-}   
 .social-icon {
 /*Everything here is a placeholder for the images*/
     display:inline-block;
@@ -197,3 +173,27 @@ img.social-icon {
     margin-bottom: 1.5em;
     margin-right: .9em;*/
 }
+
+/**********************
+RIGHT SIDE OF FOOTER
+**********************/
+#footer-left {  
+    float:left;
+    padding-left: 2em;
+    text-align:left;
+    font-size: 1.35em;
+    display:inline-block;
+    line-height: 1.5em;
+}
+
+#footer-slogan {
+    font-family: 'Georgia', 'Droid Serif', sans-serif;
+}
+
+#copyright{
+    font-size: .75em;
+    text-align:left;
+    margin-top: 5px; 
+    display:inline-block;
+    font-family: 'Open Sans', sans-serif;
+} 
