@@ -11,7 +11,8 @@ img {
 }
 
 body {
-    font-family: 'Fabrica', Arial;
+    /*font-family: 'Fabrica', 'Courier New';*/
+    font-family: 'Open Sans', sans-serif;
     background-color:#e6e9ed;
     color: #434a54;
 }
@@ -21,6 +22,11 @@ body {
     margin: 0 auto;
     background-color:#f5f7fa;
     overflow: auto; /*This fixed the wrapper background color problem that happened bc floating content*/
+        line-height: 1.8em;
+}
+
+#wrapper p {
+        text-indent: 2.5em;
 }
 
 #banner {
@@ -31,9 +37,27 @@ body {
     clear:both;
 }
 
+#content {
+    padding:20px 50px;
+    padding-bottom:50px;
+}
+
+h1, h2, h3 {
+    font-family: 'Droid Serif', serif;
+}
+
+
+
 /***********************
 HEADER - Top image strip above banner
 ***********************/
+#logo {
+    text-align:right;
+    max-height:100%;
+    max-width:100%;
+    padding: 10px 0px 10px 30px;
+}
+
 #header {
     background-image: url(../img/header.jpg);
     background-repeat: no-repeat;
@@ -63,7 +87,6 @@ nav{
     color:blue;
     max-width:960px;
     margin: 0 auto;
-    padding: 10px 0;
     text-align:center;
     font-size:1.2em;
 }
@@ -77,40 +100,36 @@ nav li{
       height but is in line with other images*/
     display:inline-block;
     list-style:none;
+    padding: .4em 1.5em;
 }
-nav a{
+nav a {
     font-weight: 800;
-    padding: 15px 10px;
 }
 
 nav a:visited, a:link {
     color:#f5f7fa;
 }
 
-nav a:link {
-    color:#f5f7fa;
-}
-
 nav a:hover {
     color:#0B108C;
 }
+
 /**********************
 FOOTER
 **********************/
 footer {
+    font-family: 'Open Sans', sans-serif;
     max-width:950px;
     background-color:#434a54;
     font-size:0.75em;
-    text-align:center;
     clear:both; /* The clear property allows the footer to be clear of any floated elements */
     color:#e6e9ed;
     margin: 0 auto;
-    padding: 4px;
     overflow:auto;
-    font-family: 'Fabrica', Arial;
 }
 footer h3{
     padding-left: .9em;
+    font-family: 'Open Sans', sans-serif;
 }
 footer ul {
     display:inline-block;
@@ -141,15 +160,16 @@ footer a:hover {
     font-size: 1.35em;
     display:inline-block;
     background-color:orange;*/
-
     
     float:left;
-    padding-top: .6em;
     padding-left: 2em;
     text-align:left;
     font-size: 1.35em;
     display:inline-block;
+    font-family: 'Georgia', serif;
+    line-height: 1.5em;
 }
+
 #copyright{
    /* font-size: .75em;
     text-align:left;
@@ -172,7 +192,8 @@ footer a:hover {
     width:30px;
     height:30px;
 }
+
 img.social-icon {
-    margin-bottom: 1em;
-    margin-right: .9em;
+    margin-bottom: 1.5em;
+    margin-right: .9em;*/
 }

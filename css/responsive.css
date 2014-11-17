@@ -12,12 +12,13 @@ This is helpful for normal sized tablets, very large smartphones, and very small
   #primary {
     width: 50%;
     float: left;
-    padding-left:1em;
+    padding:10px;
   }
   
   #secondary {
     width: 40%;
     float: right;
+    padding:10px;
   }
 
 
