@@ -115,10 +115,12 @@ nav a {
 
 nav a:visited, nav a:link {
     color:#f5f7fa;
+    text-decoration: none;
 }
 
 nav a:hover {
     color:#0B108C;
+    text-decoration: none;
 }
 
 /**********************
