@@ -89,7 +89,7 @@ font-family: 'Fabrica', Arial;
 NAVIGATION - Main site navigation
 ***********************/
 nav{
-    background:#4a89dc;
+    background-color:rgba(74,137,220,.5);/*Not working so*/
     text-align:center;
     color:blue;
     max-width:960px;
@@ -172,7 +172,7 @@ LEFT SIDE OF FOOTER
 }
 
 img.social-icon {
-    margin-bottom: 1.5em;
+    margin-bottom: 1.4em;
     margin-right: .9em;*/
 }
 
