@@ -172,6 +172,7 @@ RIGHT SIDE OF FOOTER
     height:24px;
     margin-bottom:22.7px; /*controls height of "follow us" in footer*/
     padding:1px;
+    border-radius: 20%;
 }
 
 /**********************
