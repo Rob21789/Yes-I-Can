@@ -24,9 +24,9 @@ body {
 #wrapper{
     max-width:960px;
     margin: 0 auto;
-    background-color:#f5f7fa;
+    background-color: #f5f7fa;
     overflow: auto; /*This fixed the wrapper background color problem that happened bc floating content*/
-        line-height: 1.8em;
+    line-height: 1.8em;
 }
 #wrapper img {
     border-radius:5px 20px 5px;
@@ -45,7 +45,7 @@ body {
 }
 
 #content {
-    padding:20px 50px;
+    padding:20px 40px;
     padding-bottom:50px;
 }
 
@@ -131,10 +131,10 @@ footer {
     max-width:950px;
     background-color:#434a54;
     font-size:0.75em;
-    clear:both; /* The clear property allows the footer to be clear of any floated elements */
-    color:#e6e9ed;
+    clear:both;
+    color:#e6e9ed; overflow:auto;
     margin: 0 auto;
-    overflow:auto;
+    padding:5px;
 }
 footer h3{
     padding-left: .9em;
@@ -143,7 +143,6 @@ footer h3{
 footer ul {
     display:inline-block;
     list-style-type: none;
-    text-align:left;
     }
 footer ul li{
     list-style:none;
@@ -157,27 +156,26 @@ footer ul li a{
 footer a:hover {
     color:#FFFFFF; /*Change hover color to make it more prominent*/
 }
-/**********************
-LEFT SIDE OF FOOTER
-**********************/
-#footer-right {
-    float:right;
-}
 
-.social-icon {
-/*Everything here is a placeholder for the images*/
-    display:inline-block;
-    width:30px;
-    height:30px;
-}
-
-img.social-icon {
-    margin-bottom: 1.4em;
-    margin-right: .9em;*/
-}
 
 /**********************
 RIGHT SIDE OF FOOTER
+**********************/
+#footer-right {
+    float:right;
+    margin-right:15px;
+}
+
+.social-icon {
+    display:inline-block;
+    width:24px;
+    height:24px;
+    margin-bottom:22.7px; /*controls height of "follow us" in footer*/
+    padding:1px;
+}
+
+/**********************
+LEFT SIDE OF FOOTER
 **********************/
 #footer-left {  
     float:left;
