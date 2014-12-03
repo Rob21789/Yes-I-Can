@@ -54,7 +54,6 @@ h1, h2, h3 {
 }
 
 
-
 /***********************
 HEADER - Top image strip above banner
 ***********************/
@@ -89,7 +88,7 @@ font-family: 'Fabrica', Arial;
 NAVIGATION - Main site navigation
 ***********************/
 nav{
-    background-color:rgba(74,137,220,.5);/*Not working so*/
+    background-color
     text-align:center;
     color:blue;
     max-width:960px;
