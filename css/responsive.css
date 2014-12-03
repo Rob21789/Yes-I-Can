@@ -1,36 +1,37 @@
-/*This is the placeholder for responsive CSS that we will implement for mobile design*/
-
-@media screen and (min-width: 480px) {
+/*Mobile Phones*/
+@media only screen and(max-device-width: 480px){
   
-  /*************************************
-  TWO COLUMN LAYOUT
-
- Will target anything larger than average smartphone.
-This is helpful for normal sized tablets, very large smartphones, and very small desktop windows.
-***************************************/
-  
-  #primary {
-    width: 50%;
-    float: left;
-    padding:10px;
+  div#wrapper{
+    width: 400px;
   }
-  
-  #secondary {
-    width: 40%;
-    float: right;
-    padding:10px;
+  div#header {
+      background-image: ;
+      height: 93px;/*Testing Purposes*/
+      position: relative;
+    }
+
+  div#header h1 {
+      font-size: 140%;  
   }
 
+  #content {
+      float: none;
+      width: 100%;
+  }
 
- /*************************************
-For large tablets and normal sized desktops
-***************************************/
-
-@media screen and (min-width: 660px) {
+  #navigation {
+      float:none;
+      width: auto;
+  }
   @font-face {
-    font-family: 'Fabrica';
-    font-style: normal;
-    font-weight: 100;
-    src: local('Fabrica'), local('Fabrica'), url(path/Fabrica.otf) format('otf');
+      font-family: 'Fabrica';
+      font-style: normal;
+      font-weight: 100;
+      src: local('Fabrica'), local('Fabrica'), url(path/Fabrica.otf) format('otf');
+      }
   }
+}
+/*Tablets or Small Monitors*/
+@media only screen and(max-device-width: 780px){
+   
 }
