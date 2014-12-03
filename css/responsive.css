@@ -31,6 +31,23 @@
       }
   }
 }
+/*************************************
+  TWO COLUMN LAYOUT
+
+ Will target anything larger than average smartphone.
+This is helpful for normal sized tablets, very large smartphones, and very small desktop windows.
+***************************************/
+  
+  #primary {
+    width: 50%;
+    float: left;
+    padding:10px;
+  
+  #secondary {
+    width: 40%;
+    float: right;
+    padding:10px;
+  }
 /*Tablets or Small Monitors*/
 @media only screen and(max-device-width: 780px){
    
