@@ -1,0 +1,78 @@
+/*This is the placeholder for responsive CSS that we will implement for mobile design*/
+
+/* Smartphones (portrait and landscape) ----------- */
+@media screen and (min-device-width : 240px) and (max-device-width: 660px){
+/* Styles */
+
+  #content{ 
+    text-align:left;
+    padding:0;
+  }
+  
+  #body{
+    float:left;
+    font-family: 'Fabrica';
+  }
+  
+  #logo {
+   margin-right:auto;
+   width: auto;
+   height: auto;
+   padding: 0;
+  }
+
+  #wrapper{
+    margin: 0 auto;
+  }
+
+  #nav ul, nav a:visited{
+    font-size:.9em;
+    position:relative;
+    display:none;
+  }
+  
+  #nav a:hover {
+    display:block;
+  }
+  
+  #nav li{
+    text-align:center;
+    width:100%;
+  }
+  #banner{
+    position:relative;
+  }
+  
+  #footer{
+    font-family: 'Fabrica';
+    
+  }
+}
+
+/* Desktops and laptops ----------- */
+@media screen and (min-device-width: 1024px){
+/* Styles */
+  #primary {
+    width: 50%;
+    float: left;
+    padding:10px;
+  }
+  
+  #secondary {
+    width: 40%;
+    float: right;
+    padding:10px;
+  }
+}
+/*************************************
+  TWO COLUMN LAYOUT
+
+ Will target anything larger than average smartphone.
+This is helpful for normal sized tablets, very large smartphones, and very small desktop windows.
+***************************************/
+@font-face {
+    font-family: 'Fabrica';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Fabrica'), local('Fabrica'), url(path/Fabrica.otf) format('otf');
+}
