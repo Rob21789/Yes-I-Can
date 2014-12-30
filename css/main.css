@@ -53,6 +53,11 @@ h1, h2, h3 {
     font-family: 'Droid Serif', serif;
 }
 
+.selected {
+     color:#0B108C;
+    text-decoration: none;
+}
+
 
 /***********************
 HEADER - Top image strip above banner
