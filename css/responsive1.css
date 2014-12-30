@@ -1,29 +1,22 @@
 /*This is the placeholder for responsive CSS that we will implement for mobile design*/
 
-/* Smartphones ----------- */
-@media screen and (min-width : 240px) and (max-width: 519px){
+/* Smartphones (portrait and landscape) ----------- */
+@media screen and (min-device-width : 240px) and (max-device-width: 660px){
 /* Styles */
 
   #content{ 
-    float:none;
+    text-align:left;
     padding:0;
-    width: auto;
-  }
-
-  img{
-    max-width: 100%;
-    height: auto;
-    width:auto\9; /*for ie8*/
   }
   
-  body{
+  #body{
     float:left;
     font-family: 'Fabrica';
   }
   
   #logo {
    margin-right:auto;
-   max-width: 100%;
+   width: auto;
    height: auto;
    padding: 0;
   }
@@ -31,63 +24,35 @@
   #wrapper{
     margin: 0 auto;
   }
-  #wrapper p{
-    text-indent: 0;
-  }
 
-  h1, h2, h3 {
-    font-family: 'Fabrica';
-  } 
-
-  nav{
-    position: relative;
-    min-height: 40px;
-  }
-
-  nav ul{
-    position:absolute;
-    width: 180px;
-    padding: 5px,0;
-    top: 0;
-    left: 0;
-    border: solid 1px #aaa;
-    background: #fff url(../img/menu-bar-mobile.jpg) no-repeat 10px 11px;
-    border-radius: 5px;
-    box-shadow: 0 1px 2px rgba(0,0,0,.3);
-  }
-
-  nav ul:hover li{
-    display: block;
-    margin: 0 0 5px;
+  #nav ul, nav a:visited{
+    font-size:.9em;
+    position:relative;
+    display:none;
   }
   
-  nav a:hover {
+  #nav a:hover {
     display:block;
   }
   
-  nav li{
-    display:none;
-    margin:none;
+  #nav li{
+    text-align:center;
+    width:100%;
   }
-
   #banner{
-    display: none;
+    position:relative;
   }
   
-  footer{
+  #footer{
     font-family: 'Fabrica';
-    float:left;
+    
   }
 }
 
-/*Ipads and Tablets*/
-@media screen and (min-width:520px) and (max-width: 959px){
-  footer{
-    font-family: 'Fabrica';
-    float: left;
-  }
-
-   #primary {
+/* Desktops and laptops ----------- */
+@media screen and (min-device-width: 1024px){
+/* Styles */
+  #primary {
     width: 50%;
     float: left;
     padding:10px;
@@ -99,23 +64,6 @@
     padding:10px;
   }
 }
-
-/* Desktops and laptops ----------- */
-@media screen and (min-width: 1024px){
-/* Styles */
-  #primary {
-    width: 55%;
-    float: left;
-    padding:10px;
-  }
-  
-  #secondary {
-    width: 30%;
-    float: right;
-    padding:10px;
-  }
-}
-
 /*************************************
   TWO COLUMN LAYOUT
 
