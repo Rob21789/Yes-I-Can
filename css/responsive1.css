@@ -130,5 +130,5 @@ This is helpful for normal sized tablets, very large smartphones, and very small
     font-family: 'Fabrica';
     font-style: normal;
     font-weight: 100;
-    src: local('Fabrica'), local('Fabrica'), url(path/Fabrica.otf) format('otf');
-}
+    src: local('Fabrica'), local('Fabrica'), url('/font/Fabrica.otf') format('opentype');
+    }

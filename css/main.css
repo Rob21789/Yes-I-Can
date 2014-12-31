@@ -170,11 +170,17 @@ footer a:hover {
 
 
 /**********************
-RIGHT SIDE OF FOOTER
+RIGHT SIDE OF FOOTER - Contains links and social media icons
 **********************/
 #footer-right {
     float:right;
     margin-right:15px;
+}
+
+#footer-right li:nth-child(1) { /*Styles footer headers*/
+    font-weight:bold;
+    font-size:1.2em;
+    padding-bottom:4px;
 }
 
 .social-icon {
@@ -187,7 +193,7 @@ RIGHT SIDE OF FOOTER
 }
 
 /**********************
-LEFT SIDE OF FOOTER
+LEFT SIDE OF FOOTER - Contains copyright and slogan
 **********************/
 #footer-left {  
     float:left;
