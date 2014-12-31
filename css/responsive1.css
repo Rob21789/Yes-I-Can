@@ -1,7 +1,7 @@
 /*This is the placeholder for responsive CSS that we will implement for mobile design*/
 
 /* Smartphones ----------- */
-@media screen and (min-width : 240px) and (max-width: 519px){
+@media screen and (max-width: 519px){ 
 /* Styles */
 
   #content{ 
@@ -81,27 +81,31 @@
 }
 
 /*Ipads and Tablets*/
-@media screen and (min-width:520px) and (max-width: 959px){
+@media screen and (min-width:960px) and (max-device-width: 1024px) and (orientation: landscape){
   footer{
     font-family: 'Fabrica';
     float: left;
   }
 
+  body{
+    font-family: 'Fabrica';
+  }
+
    #primary {
-    width: 50%;
+    width: 55%;
     float: left;
     padding:10px;
   }
   
   #secondary {
-    width: 40%;
+    width: 30%;
     float: right;
     padding:10px;
   }
 }
 
 /* Desktops and laptops ----------- */
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1200px){
 /* Styles */
   #primary {
     width: 55%;
