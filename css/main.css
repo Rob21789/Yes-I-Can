@@ -1,10 +1,6 @@
 /***********************
 GENERAL
 ***********************/
-a {
-    text-decoration: underline;
-}
-
 a:hover {
     text-decoration: underline;
 }
@@ -28,6 +24,11 @@ body {
     overflow: auto; /*This fixed the wrapper background color problem that happened bc floating content*/
     line-height: 1.8em;
 }
+
+#wrapper a {
+    text-decoration: underline;
+}
+
 #wrapper img {
     border-radius:5px 20px 5px;
 }
@@ -92,47 +93,8 @@ font-family: 'Fabrica', Arial;
 /***********************
 NAVIGATION - Main site navigation
 ***********************/
-nav{
-    background-color:#4888dc;
-    text-align:center;
-    color:blue;
-    max-width:960px;
-    margin: 0 auto;
-    text-align:center;
-    font-size:1.2em;
-}
-nav ul{
-    list-style:none;
-    margin:0 10px; /*Can be change later on in the design if it doesn't work*/
-}
-nav li{
-    /*Inline, mostly text. Appears in the same line, inline as the rest of the text. Block 
-      pushes other items out of the page. Inline block maintains width and 
-      height but is in line with other images*/
-    display:inline-block;
-    list-style:none;
-    padding:1%;
-    /*padding: .4em 1.5em;*/
-}
-
-nav a {
-    font-weight: 800;
-}
-
-nav a:visited, nav a:link {
-    color:#f5f7fa;
-    text-decoration: none;
-}
-
-nav a:hover {
-    color:#0B108C;
-    text-decoration: none;
-}
 
 
-nav ul li a.selected { /*Highlights current page for users*/
-    color:#0B108C;
-}
 
 /**********************
 FOOTER

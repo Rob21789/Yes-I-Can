@@ -1,19 +1,102 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>	
-	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--  ****ADD IN DESCRIPTION AND CONTENT*****
+    <meta name="description" content="">
+    <meta name="author" content="">
+    -->
+ 	<meta charset="utf-8">
 	<title>Yes ICAN: International Child Advocacy Network</title>
+	    <!-- Bootstrap core CSS -->
+	    
+	    
+      <!-- Custom styles for this template -->
+  <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+      
+	
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">      
+      
+  <link href="navbar.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/normalize.css"/>
 	<link rel="stylesheet" href="css/main.css"/>
 	<link rel="stylesheet" href="css/responsive1.css"/>
-	<meta name="viewport" content="width=device-width, maximum-scale=1; minimum-scale=1; initial-scale=1.0">
+	<!--<meta name="viewport" content="width=device-width, maximum-scale=1; minimum-scale=1; initial-scale=1.0"> COMMENTED OUT FOR BOOTSTRAP TESTING-->
 	<link href='http://fonts.googleapis.com/css?family=Droid+Serif:700|Open+Sans' rel='stylesheet' type='text/css'>
   </head>
+  
+  
+  
   <body>
+  	
+  	    <div class="container">
+
+      <!-- Static navbar -->
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">
+            	<img alt="site logo" src="img/logo_short_sm.png"/>
+            </a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li class="dropdown-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="./">Default <span class="sr-only">(current)</span></a></li>
+              <li><a href="../navbar-static-top/">Static top</a></li>
+              <li><a href="../navbar-fixed-top/">Fixed top</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  
+  <!--END BOOTSTRAP code-->
+    
+    
+    
+ <!--
 	<header>
-			<!--This is where my header was, but I am commenting it out for editing
-		<img id="header" src="img/header.jpg"/> Include transparent logo PNG here-->
+	
+		COMMENT: This is where my header was, but I am commenting it out for editing
+		
+		<img id="header" src="img/header.jpg"/> Include transparent logo PNG here
 		<div id="header"><a href="index.html"><img id="logo" alt="site logo" src="img/logo.png"/></a></div>
+
 
 		<nav>
 			<ul>
@@ -27,13 +110,16 @@
 			</ul>
 		</nav>
 	</header>
-
+-->
 
 	<img id="banner" alt="home page banner" src="img/banner.jpg"/>
 	<!--The main content of the website will go inside of the #wrapper id. It is divided into two sections: #primary & #secondary.-->
 	<div id="wrapper">
 		<!-- Two sections have been created for desktop view to have two columns. Mobile website will just be stacked-->
 		<div id="content">
+			<section class="secondary">
+				<div style="text-center"></div><button type="button" class="btn pull-right btn-lg btn-success">Donate</button></div>
+			</section>
 			<section id="primary"><!--Left column content goes here-->
 				<h2>Who We Are</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in elementum velit, venenatis rhoncus lacus. Ut consequat luctus enim, in auctor libero posuere ut. Curabitur vitae aliquet nisi. Etiam condimentum tincidunt venenatis. Fusce vel congue purus. Pellentesque ut eleifend ex. Nunc purus neque, aliquam vitae aliquam quis, accumsan id lacus. Nunc ac scelerisque magna. Etiam purus lorem, rutrum et ornare a, tincidunt non ipsum. Nullam blandit dui venenatis, malesuada felis a, porttitor purus.</p>
@@ -41,7 +127,7 @@
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in elementum velit, venenatis rhoncus lacus. Ut consequat luctus enim, in auctor libero posuere ut. Curabitur vitae aliquet nisi. Etiam condimentum tincidunt venenatis. Fusce vel congue purus. Pellentesque ut eleifend ex. Nunc purus neque, aliquam vitae aliquam quis, accumsan id lacus. Nunc ac scelerisque magna. Etiam purus lorem, rutrum et ornare a, tincidunt non ipsum. Nullam blandit dui venenatis, malesuada felis a, porttitor purus.</p>
 			</section>
 
-			<section id="secondary"><!--Right column content goes here-->
+			<section class="secondary"><!--Right column content goes here-->
 				<h2>Memorial</h2>
 				<img alt="Memorial List" src="img/memorial_list.jpg"/>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in elementum velit, venenatis rhoncus lacus. Ut consequat luctus enim, in auctor libero posuere ut.</p>
