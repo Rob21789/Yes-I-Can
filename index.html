@@ -23,7 +23,7 @@
   <link href="navbar.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/normalize.css"/>
 	<link rel="stylesheet" href="css/main.css"/>
-	<link rel="stylesheet" href="css/responsive1.css"/>
+<!--	<link rel="stylesheet" href="css/responsive1.css"/>-->
 	<!--<meta name="viewport" content="width=device-width, maximum-scale=1; minimum-scale=1; initial-scale=1.0"> COMMENTED OUT FOR BOOTSTRAP TESTING-->
 	<link href='http://fonts.googleapis.com/css?family=Droid+Serif:700|Open+Sans' rel='stylesheet' type='text/css'>
   </head>
@@ -31,7 +31,7 @@
   
   
   <body>
-  	
+  	<p></p>
   	    <div class="container">
 
       <!-- Static navbar -->
@@ -45,14 +45,18 @@
               <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="index.html">
-            	<img alt="site logo" src="img/logo_short_sm.png"/>
+            	<img alt="site logo" id="navlogo" src="img/logo_short_sm.png"/>
             </a>
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
+            	
               <li class="active"><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="#">Get Help</a></li>
+              <li><a href="#">Community</a></li>
+              <li><a href="#">Resources</a></li>
+              
+              
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
@@ -66,11 +70,18 @@
                 </ul>
               </li>
             </ul>
-            <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="./">Default <span class="sr-only">(current)</span></a></li>
-              <li><a href="../navbar-static-top/">Static top</a></li>
-              <li><a href="../navbar-fixed-top/">Fixed top</a></li>
-            </ul>
+           <!-- <ul class="nav navbar-nav navbar-right">
+              <li><button type="button" class="btn btn-lg btn-success">Donate &#10084;</button></li>
+              <style>
+              	
+              	.btn-lg {
+              		font-size: 15px;
+									font-weight: bold;
+									padding: 8px 16px;
+									margin:6px 5px;
+              	}
+              </style>
+            </ul>-->
           </div><!--/.nav-collapse -->
         </div><!--/.container-fluid -->
       </nav>
@@ -117,9 +128,6 @@
 	<div id="wrapper">
 		<!-- Two sections have been created for desktop view to have two columns. Mobile website will just be stacked-->
 		<div id="content">
-			<section class="secondary">
-				<div style="text-center"></div><button type="button" class="btn pull-right btn-lg btn-success">Donate</button></div>
-			</section>
 			<section id="primary"><!--Left column content goes here-->
 				<h2>Who We Are</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in elementum velit, venenatis rhoncus lacus. Ut consequat luctus enim, in auctor libero posuere ut. Curabitur vitae aliquet nisi. Etiam condimentum tincidunt venenatis. Fusce vel congue purus. Pellentesque ut eleifend ex. Nunc purus neque, aliquam vitae aliquam quis, accumsan id lacus. Nunc ac scelerisque magna. Etiam purus lorem, rutrum et ornare a, tincidunt non ipsum. Nullam blandit dui venenatis, malesuada felis a, porttitor purus.</p>
@@ -165,5 +173,9 @@
 			<p id="copyright">Copyright&copy; 2014 International Child Advocacy Network</p>
 		</div>
 	</footer>
+	
+	
+	   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>

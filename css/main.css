@@ -43,6 +43,7 @@ body {
     padding: 0;
     display:block;
     clear:both;
+    border-radius: 4px 4px 0 0;
 }
 
 #content {
@@ -63,11 +64,15 @@ h1, h2, h3 {
 /***********************
 HEADER - Top image strip above banner
 ***********************/
-#logo {
+/*#logo { Commented out for bootstrap testing
     text-align:right;
     max-height:100%;
     max-width:100%;
     padding: 10px 0px 10px 30px;
+}*/
+
+.navbar-brand {
+    margin-top:-5px;
 }
 
 #header {
