@@ -25,12 +25,17 @@ body {
     line-height: 1.8em;
 }
 
-#wrapper a {
+#content a {
     text-decoration: underline;
 }
 
-#wrapper img {
+#content img {
     border-radius:5px 20px 5px;
+    padding:10px;
+}
+
+#content {
+    padding:0 10px 30px 10px;
 }
 
 #wrapper p {
@@ -43,13 +48,8 @@ body {
     padding: 0;
     display:block;
     clear:both;
-    border-radius: 4px 4px 0 0;
 }
 
-#content {
-    padding:20px 40px;
-    padding-bottom:50px;
-}
 
 h1, h2, h3 {
     font-family: 'Droid Serif', serif;
@@ -98,15 +98,38 @@ font-family: 'Fabrica', Arial;
 /***********************
 NAVIGATION - Main site navigation
 ***********************/
+#navlogo {
+    margin-top:-5px;
+}
 
+.container
+{
+    margin:0 auto;
+    max-width:990px;
+}
 
+.row {
+    margin-left, margin-right: 0px;
+}
 
+.navbar {
+    margin-bottom:0px;
+    min-height:50px;
+    border-radius:0px;
+}
+
+.btn-lg { /*Styles the donate button*/
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px 16px;
+    margin:6px 5px;
+}  
 /**********************
 FOOTER
 **********************/
 footer {
     font-family: 'Open Sans', sans-serif;
-    max-width:950px;
+    max-width:960px;
     background-color:#434a54;
     font-size:0.75em;
     clear:both;
