@@ -1,31 +1,49 @@
-/*This is the placeholder for responsive CSS that we will implement for mobile design*/
+  /*************************************
+Note that the main CSS is designed for a mobile website, because we styled from mobile to desktop since it is easier to take a simpler site and make it more complex than vice versa.
 
-@media screen and (min-width: 480px) {
- @font-face {
-    font-family: 'Fabrica';
-    font-style: normal;
-    font-weight: 100;
-    src: local('Fabrica'), local('Fabrica'), url(path/Fabrica.otf) format('otf');
-  }
-}
-@media only screen{
+@media screen 
+telling browser to target digital screens as opposed to print media and
+(min-width: 480px)
 
-}
-  
-/*************************************
-  TWO COLUMN LAYOUT
+both the digital screen and 480px min width must be met for this style to be added*
 
- Will target anything larger than average smartphone.
+-------------
+Min-width 480 px means if the screen width is any LARGER than 480px, then the following styles should be added. 480px is a breakpoint because that's a common size for smartphones in landscape mode. Anything larger than 480px will have these rules applied.
+
+Will target anything larger than average smartphone.
 This is helpful for normal sized tablets, very large smartphones, and very small desktop windows.
 ***************************************/
+
+@media screen and (min-width: 480px) {
   
+  /*************************************
+  TWO COLUMN LAYOUT
+  ***************************************/
   #primary {
     width: 50%;
     float: left;
-    padding:10px;
+    padding: 10px;
+  }
   
   #secondary {
     width: 40%;
     float: right;
     padding:10px;
   }
+
+  /*************************************
+  Math to figure out three columns.
+  3 * 5 = 15 (space taken up by margins, note the 5 is taken frmo the 2.5 margins on either side)
+  100 - 15 = 85 (divide 85 by 3 because there will be 3 columns)
+  85 / 3 = 28.33333333333333 (you should resist rounding to make this accurate)
+  ***************************************/
+}
+  
+  
+/*************************************
+For large tablets and normal sized desktops
+***************************************/
+
+@media screen and (min-width: 660px) {
+  
+}

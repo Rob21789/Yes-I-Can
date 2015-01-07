@@ -67,7 +67,7 @@
   
   nav li{
     display:none;
-    margin:none;
+    margin:none;  
   }
 
   #banner{
@@ -77,6 +77,20 @@
   footer{
     font-family: 'Fabrica';
     float:left;
+  }
+}
+
+/*To fix the footer issue. It happens (I think) when it is around 888 px*/
+
+@media screen and (max-width: 800px){
+  #footer-right{
+    float:left;
+    margin-left: 15px;
+  }
+  /*align footer-right to footer-left*/
+  #footer-right ul{
+    padding-left: 20px;
+    padding-right: 20px;  
   }
 }
 

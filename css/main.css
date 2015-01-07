@@ -195,6 +195,20 @@ LEFT SIDE OF FOOTER - Contains copyright and slogan
     line-height: 1.5em;
 }
 
+/*To fix the footer issue. It happens (I think) when it is around 888 px*/
+
+@media screen and (max-width: 800px){
+  #footer-right{
+    float:left;
+    margin-left: 15px;
+  }
+  /*align footer-right to footer-left*/
+  #footer-right ul{
+    padding-left: 20px;
+    padding-right: 20px;  
+  }
+}
+
 #footer-slogan {
     font-family: 'Georgia', 'Droid Serif', sans-serif;
 }
